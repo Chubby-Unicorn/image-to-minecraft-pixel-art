@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2005: "int __cdecl makeBlockTxt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?makeBlockTxt@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) already defined in main.obj
+main.obj : error LNK2005: "int __cdecl getBlockColors(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?getBlockColors@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H@Z) already defined in main.obj
+C:\Users\ausde\source\repos\Project3\x64\Release\Project3.exe : fatal error LNK1169: one or more multiply defined symbols found
