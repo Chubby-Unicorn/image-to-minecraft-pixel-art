@@ -1,0 +1,27 @@
+/**
+
+int dmain()
+{
+	Mat src1;
+	src1 = imread("C:\\Users\\ausde\\Desktop\\DDLC\\screenshot\\screenshot0003.png", CV_LOAD_IMAGE_COLOR);
+	fstream fle;
+
+	/*namedWindow("Original image", CV_WINDOW_AUTOSIZE);
+	imshow("Original image", src1);*/
+
+	// Modify the pixels of the BGR image
+	for (int i = 0; i < src1.rows; i++)
+	{
+		for (int j = 0; j < src1.cols; j++)
+		{
+			src1.at<Vec3b>(i, j)[0] = src1.at<Vec3b>(i, j)[0];
+			src1.at<Vec3b>(i, j)[1] = src1.at<Vec3b>(i, j)[1];
+			src1.at<Vec3b>(i, j)[2] = src1.at<Vec3b>(i, j)[2];
+		}
+	}
+	
+	return 0;
+}
+
+
+**/

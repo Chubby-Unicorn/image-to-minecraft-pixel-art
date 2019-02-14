@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\ausde\source\repos\project3\project3\main.cpp(141): warning C4018: '<': signed/unsigned mismatch
+c:\users\ausde\source\repos\project3\project3\main.cpp(183): warning C4018: '<': signed/unsigned mismatch
+c:\users\ausde\source\repos\project3\project3\main.cpp(184): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  2 of 528 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project3.vcxproj -> C:\Users\ausde\source\repos\Project3\Release\Project3.exe
